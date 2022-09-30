@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator by TOMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CACULATOR</h1>
+    <div class="calculator">
+        
+        <input type="text" name="calculator-screen" id="screen" onclick="screen()">
+        
+        <div class="calculator-buttons">
+
+            <div class="button-row">
+                <button onclick="ac()">AC</button>
+                <button onclick="modulus()">%</button>
+                <button onclick="negation()">~</button>
+                <button class="del" onclick="del()">DEL</button>
+            </div>
+
+            <div class="button-row">
+                <button onclick="seven()">7</button>
+                <button onclick="eight()">8</button>
+                <button onclick="nine()">9</button>
+                <button onclick="multiply()">*</button>
+            </div>
+
+            <div class="button-row">
+                <button onclick="four()">4</button>
+                <button onclick="five()">5</button>
+                <button onclick="six()">6</button>
+                <button onclick="minus()">-</button>
+            </div>
+
+            <div class="button-row">
+                <button onclick="one()">1</button>
+                <button onclick="two()">2</button>
+                <button onclick="three()">3</button>
+                <button onclick="add()">+</button>
+            </div>
+
+            <div class="button-row">
+                <button onclick="zero()">0</button>
+                <button onclick="decimal()">.</button>
+                <button onclick="division()">/</button>
+                <button onclick="equalto()">=</button>
+            </div>
+
+
+            
+        </div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
