@@ -36,6 +36,9 @@ h1{
     background-color: red;
     color: white;
 }
+.button-row .del:hover{
+    background-color: black;
+}
 
 .calculator-buttons button{
     margin:12px 6px;
@@ -45,6 +48,9 @@ h1{
     /* height: 50px; */
     width: 20%;
     /* display: table-cell; */
+}
+.calculator-buttons button:hover{
+    background-color: red;
 }
 
 

@@ -41,7 +41,7 @@ function nine() {
 }
 
 function ac() {
-    showdata.value += "ac"
+    showdata.value = ""
 }
 
 function add(){
@@ -69,7 +69,10 @@ function modulus(){
 }
 
 function del(){
-    showdata.value += "del"
+    let showdata = document.getElementById('screen');
+    let result = showdata.value
+    let slicevalue = result.slice(0, -1)
+    showdata.value = slicevalue
 }
 
 function negation(){
