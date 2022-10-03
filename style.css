@@ -2,40 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* overflow-x: hidden; */
 }
+
 h1{
     margin-top: 20px;
     margin-bottom: 50px;
     text-align: center;
     text-decoration: underline;
 }
+
 .calculator{
     border-radius: 10px;
     margin-top: 30px;
-    /* background: blueviolet; */
-    /* min-height:400px ; */
     box-shadow: 0 8px 50px -7px grey;
     margin: auto;
     width: 300px;
 }
 
 #screen{
-    /* height: 70px; */
     border: none;
     width: 100%;
     background-color: rgba(223, 217, 217, 0.301);
-    /* border: 2px solid grey; */
     padding: 20px;
 }
 
-/* .button-row{
-    display: table;
-} */
 .button-row .del{
     background-color: red;
     color: white;
 }
+
 .button-row .del:hover{
     background-color: black;
 }
@@ -44,27 +39,11 @@ h1{
     margin:12px 6px;
     padding: 20px;
     border: none;
-    /* font-size: 15px; */
-    /* height: 50px; */
     width: 20%;
-    /* display: table-cell; */
 }
+
 .calculator-buttons button:hover{
     background-color: red;
 }
 
 
-/* @media screen and (max-width:500px){
-    .calculator{
-        width: 100%;
-    }
-    .calculator > div{
-        width: 80%;
-    }
-
-    .button-row button{
-        width: 25%;
-    }
-    
-    
-} */
