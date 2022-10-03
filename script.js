@@ -79,7 +79,7 @@ function negation(){
 function equalto() {
     let output = document.getElementById("screen");
     let result = eval(output.value); 
-    output.value += "="
+    output.value = result
 }
 
 
