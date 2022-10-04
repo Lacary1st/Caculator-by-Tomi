@@ -1,10 +1,23 @@
 let showdata = document.getElementById("screen");
 
 function zero() {
-    showdata . value += "0"
+
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 0
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata . value += "0"
 } 
 
 function one() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -21,6 +34,7 @@ function one() {
 
 
 function two() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -36,6 +50,7 @@ function two() {
 }
 
 function three() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -51,6 +66,7 @@ function three() {
 }
 
 function four() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -66,6 +82,7 @@ function four() {
 }
 
 function five() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -81,6 +98,7 @@ function five() {
 }
 
 function six() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -96,6 +114,7 @@ function six() {
 }
 
 function seven() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -111,6 +130,7 @@ function seven() {
 }
 
 function eight() {
+
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -126,6 +146,7 @@ function eight() {
 }
 
 function nine() {
+    
     let showdatavalue =  showdata.value
     if( showdatavalue  !='off' && showdatavalue != "on"){
 
@@ -141,27 +162,14 @@ function nine() {
 }
 
 function ac() {
-    let showdatavalue =  showdata.value
-    if( showdatavalue  !='off' && showdatavalue != "on"){
-
-   if(showdatavalue == 0){
-    showdata.value = "";
-   }
-   showdata.value += ""
-}
-    else{
-        showdata.value ="on";
-    }
-    // showdata.value = ""
+    showdata.value = ""
 }
 
 function add(){
-    
-    showdata.value += "+"
+ showdata.value += "+"
 }
 
 function multiply(){
-    
     showdata.value += "*"
 }
 
