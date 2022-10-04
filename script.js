@@ -5,50 +5,163 @@ function zero() {
 } 
 
 function one() {
-    showdata.value += "1"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 1
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "2"
 }
 
+
 function two() {
-    showdata.value += "2"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 2
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "2"
 }
 
 function three() {
-    showdata.value += "3"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 3
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "3"
 }
 
 function four() {
-    showdata.value += "4"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 4
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "4"
 }
 
 function five() {
-    showdata.value += "5"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 5
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "5"
 }
 
 function six() {
-    showdata.value += "6"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 6
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "6"
 }
 
 function seven() {
-    showdata.value += "7"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 7
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "7"
 }
 
 function eight() {
-    showdata.value += "8"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 8
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "8"
 }
 
 function nine() {
-    showdata.value += "9"
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += 9
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value += "9"
 }
 
 function ac() {
-    showdata.value = ""
+    let showdatavalue =  showdata.value
+    if( showdatavalue  !='off' && showdatavalue != "on"){
+
+   if(showdatavalue == 0){
+    showdata.value = "";
+   }
+   showdata.value += ""
+}
+    else{
+        showdata.value ="on";
+    }
+    // showdata.value = ""
 }
 
 function add(){
+    
     showdata.value += "+"
 }
 
 function multiply(){
+    
     showdata.value += "*"
 }
 
@@ -75,15 +188,22 @@ function del(){
     showdata.value = slicevalue
 }
 
-function negation(){
-    showdata.value += "~"
-}
-
 function equalto() {
     let output = document.getElementById("screen");
     let result = eval(output.value); 
     output.value = result
 }
+
+function onandoff(){
+    let showdata = document.getElementById("screen");
+    var showdatavalue = showdata.value;
+    if(showdatavalue == "off" || showdatavalue == "on"){
+        showdata.value = 0
+    }
+    else{
+        showdata.value = "off"
+    }
+} 
 
 
 
